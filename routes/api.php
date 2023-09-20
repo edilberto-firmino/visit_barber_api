@@ -22,5 +22,5 @@ Route::apiResource('cutgalery', CutGalleryController::class);
 Route::apiResource('cutstype', CutsTypeController::class);
 Route::apiResource('profilepicture', ProfilePictureController::class);
 Route::apiResource('users', UserController::class);
-// Route::apiResource('schedules', ScheduleController::class);
-// Route::apiResource('openinghours', OpeningHourController::class);
+Route::apiResource('schedules', ScheduleController::class);
+Route::apiResource('openinghours', OpeningHourController::class);
